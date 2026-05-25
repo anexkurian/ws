@@ -1,0 +1,3 @@
+module.exports=[727516,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(913651);a.n(d("[project]/Documents/WS/widelystudioswebsite/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},905669,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(913651);a.n(d("[project]/Documents/WS/widelystudioswebsite/node_modules/next/dist/client/components/builtin/global-error.js"))},247675,a=>{"use strict";a.i(727516);var b=a.i(905669);a.n(b)}];
+
+//# sourceMappingURL=15a63_next_dist_client_components_builtin_global-error_888a3e53.js.map

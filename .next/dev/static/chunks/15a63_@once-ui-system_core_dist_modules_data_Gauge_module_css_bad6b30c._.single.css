@@ -1,0 +1,27 @@
+/* [project]/Documents/WS/widelystudioswebsite/node_modules/@once-ui-system/core/dist/modules/data/Gauge.module.css [app-client] (css) */
+.Gauge-module__v5t5eq__svg {
+  display: block;
+  overflow: visible;
+}
+
+.Gauge-module__v5t5eq__activeLine, .Gauge-module__v5t5eq__inactiveLine {
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.Gauge-module__v5t5eq__label {
+  font-family: var(--font-code);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@keyframes Gauge-module__v5t5eq__pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .8;
+  }
+}
+
+/*# sourceMappingURL=15a63_%40once-ui-system_core_dist_modules_data_Gauge_module_css_bad6b30c._.single.css.map*/

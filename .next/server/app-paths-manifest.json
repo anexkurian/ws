@@ -1,0 +1,20 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/api/authenticate/route": "app/api/authenticate/route.js",
+  "/api/check-auth/route": "app/api/check-auth/route.js",
+  "/api/og/fetch/route": "app-edge-has-no-entrypoint",
+  "/api/og/generate/route": "app/api/og/generate/route.js",
+  "/api/og/proxy/route": "app/api/og/proxy/route.js",
+  "/api/rss/route": "app/api/rss/route.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/work/[slug]/page": "app/work/[slug]/page.js",
+  "/work/page": "app/work/page.js"
+}

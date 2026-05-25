@@ -1,0 +1,35 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/Documents/WS/widelystudioswebsite/node_modules/prismjs/components/prism-bbcode.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+Prism.languages.bbcode = {
+    'tag': {
+        pattern: /\[\/?[^\s=\]]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'"\]=]+))?(?:\s+[^\s=\]]+\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'"\]=]+))*\s*\]/,
+        inside: {
+            'tag': {
+                pattern: /^\[\/?[^\s=\]]+/,
+                inside: {
+                    'punctuation': /^\[\/?/
+                }
+            },
+            'attr-value': {
+                pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'"\]=]+)/,
+                inside: {
+                    'punctuation': [
+                        /^=/,
+                        {
+                            pattern: /^(\s*)["']|["']$/,
+                            lookbehind: true
+                        }
+                    ]
+                }
+            },
+            'punctuation': /\]/,
+            'attr-name': /[^\s=\]]+/
+        }
+    }
+};
+Prism.languages.shortcode = Prism.languages.bbcode;
+}),
+]);
+
+//# sourceMappingURL=15a63_prismjs_components_prism-bbcode_ff5ef746.js.map

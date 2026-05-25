@@ -1,0 +1,6 @@
+/* [project]/Documents/WS/widelystudioswebsite/src/resources/custom.css [app-client] (css) */
+div.display-flex.position-relative:nth-of-type(6) > div.display-flex.position-relative > div.display-flex.position-relative > div.display-flex.position-relative:nth-of-type(4) > div.display-flex.position-relative:first-of-type > div.display-flex.position-relative:first-of-type > div.display-flex.position-relative:first-of-type > div.display-flex.position-absolute:nth-of-type(2), div.display-flex.position-relative:nth-of-type(6) > div.display-flex.position-relative > div.display-flex.position-relative > div.display-flex.position-relative:nth-of-type(2) > div.display-flex.position-sticky:first-of-type, [data-theme="light"] .theme-logo-white, [data-theme="dark"] .theme-logo-black {
+  display: none !important;
+}
+
+/*# sourceMappingURL=Documents_WS_widelystudioswebsite_src_resources_custom_css_bad6b30c._.single.css.map*/

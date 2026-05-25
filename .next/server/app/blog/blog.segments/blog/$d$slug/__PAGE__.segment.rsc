@@ -1,0 +1,116 @@
+1:"$Sreact.fragment"
+2:I[919296,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"Row"]
+3:I[473090,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"Column"]
+4:I[108064,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],""]
+5:I[588719,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"SmartLink"]
+6:I[960870,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"Avatar"]
+7:I[279526,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"HeadingLink"]
+8:I[962009,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"InlineCode"]
+9:I[339364,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"CodeBlock"]
+15:I[859616,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"ShareSection"]
+16:I[720260,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"Line"]
+17:I[548074,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"Grid"]
+18:I[863478,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"default"]
+1b:I[354079,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"ScrollToHash"]
+1c:I[134005,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/010ee6473d5d1291.js"],"HeadingNav"]
+1d:I[223269,["/_next/static/chunks/919292bbcd917b8d.js","/_next/static/chunks/6afda0f13645613a.js"],"OutletBoundary"]
+1e:"$Sreact.suspense"
+0:{"buildId":"PNRYrP-4ylpnBi3TkVvhW","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog/blog\",\"sameAs\":[],\"headline\":\"Create, edit and delete blog posts\",\"description\":\"Create, edit and delete posts in the blog section of your Magic Portfolio.\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=Create%2C%20edit%20and%20delete%20blog%20posts\",\"datePublished\":\"2025-03-17\",\"dateModified\":\"2025-03-17\",\"author\":{\"@type\":\"Person\",\"name\":\"Selene Yu\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 17, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Create, edit and delete blog posts"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Selene Yu"}]]}]}],"",["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"manage-posts","children":"Manage posts"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["You can create, edit and delete posts by adding, modifying or removing ",["$","$L8",null,{"children":"*.mdx"}]," files in the ",["$","$L8",null,{"children":"src/app/blog/posts"}]," directory."]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"frontmatter","children":"Frontmatter"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The frontmatter is used to set the post's metadata: title, description, image, and tags. It's used in the post's page and in meta- and open graph tags."}],"\n",["$","$L9",null,{"marginBottom":"16","codes":[{"code":"---\ntitle: \"Arriving to a new milestone in my career\"\npublishedAt: \"2024-04-08\"\nimage: \"/images/gallery/img-02.jpg\"\nsummary: \"Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path.\"\ntag: \"Journal\"\n---","language":"tsx","label":"src/app/blog/posts/post-1.mdx"}]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"mdx-syntax","children":"MDX syntax"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"You can use MDX to write the content of your posts. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"custom-components","children":"Custom components"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["You can use custom components in MDX files, but you need to import them first in the ","$La"," file."]}],"\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le"]}],"$Lf","$L10","$L11"]}]}],"$L12"]}],["$L13"],"$L14"]}],"loading":null,"isPartial":false}
+a:["$","$L8",null,{"children":"src/components/mdx.tsx"}]
+b:["$","$L9",null,{"marginBottom":"16","highlight":"11-12","codes":[{"code":"const components = {\n  p: createParagraph as any,\n  h1: createHeading(1) as any,\n  h2: createHeading(2) as any,\n  h3: createHeading(3) as any,\n  h4: createHeading(4) as any,\n  h5: createHeading(5) as any,\n  h6: createHeading(6) as any,\n  img: createImage as any,\n  a: CustomLink as any,\n  Table,\n  CodeBlock,\n};","language":"tsx","label":"src/components/mdx.tsx"}]}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["As you can see, the ",["$","$L8",null,{"children":"Table"}]," and ",["$","$L8",null,{"children":"CodeBlock"}]," components are already imported and available for use. You can add more by simply importing them to this file and passing them to the ",["$","$L8",null,{"children":"components"}]," object."]}]
+d:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"hot-reload","children":"Hot reload"}]
+e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Hot reload of MDX files is currently not supported, but we're working on it."}]
+f:["$","$L15",null,{"title":"Create, edit and delete blog posts","url":"https://demo.magic-portfolio.com/blog/blog"}]
+19:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />1a:T49d,
+## Enable or disable pages
+
+Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+
+## Add new pages
+
+When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+    '/music': true,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.10:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L16",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L17",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"0","gap":"16","children":[["$","$L18","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$19"},"thumbnail":true,"direction":"column"}],["$","$L18","pages",{"post":{"metadata":{"title":"Enable or disable pages for your portfolio","subtitle":"","publishedAt":"2025-04-22","summary":"Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings.","image":"/images/gallery/horizontal-2.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"pages","content":"$1a"},"thumbnail":true,"direction":"column"}]]}]]}]
+11:["$","$L1b",null,{}]
+12:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L1c",null,{"fitHeight":true}]}]
+13:["$","script","script-0",{"src":"/_next/static/chunks/010ee6473d5d1291.js","async":true}]
+14:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+1f:null

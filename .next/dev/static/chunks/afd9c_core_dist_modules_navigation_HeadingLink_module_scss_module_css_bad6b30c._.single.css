@@ -1,0 +1,15 @@
+/* [project]/Documents/WS/widelystudioswebsite/node_modules/@once-ui-system/core/dist/modules/navigation/HeadingLink.module.scss.module.css [app-client] (css) */
+@media (hover: hover) {
+  .HeadingLink-module-scss-module__h2ZZKW__control:hover .HeadingLink-module-scss-module__h2ZZKW__text {
+    text-decoration-line: underline;
+  }
+}
+
+.HeadingLink-module-scss-module__h2ZZKW__text {
+  text-underline-offset: .25em;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-color: var(--neutral-border-strong);
+  text-decoration-color: var(--neutral-border-strong);
+}
+
+/*# sourceMappingURL=afd9c_core_dist_modules_navigation_HeadingLink_module_scss_module_css_bad6b30c._.single.css.map*/

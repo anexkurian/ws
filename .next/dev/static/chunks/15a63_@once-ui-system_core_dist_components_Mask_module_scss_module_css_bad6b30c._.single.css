@@ -1,0 +1,9 @@
+/* [project]/Documents/WS/widelystudioswebsite/node_modules/@once-ui-system/core/dist/components/Mask.module.scss.module.css [app-client] (css) */
+.Mask-module-scss-module__uRfb8q__mask {
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-image: radial-gradient(var(--mask-radius) at var(--mask-position-x) var(--mask-position-y), black 0%, transparent 100%);
+  mask-image: radial-gradient(var(--mask-radius) at var(--mask-position-x) var(--mask-position-y), black 0%, transparent 100%);
+}
+
+/*# sourceMappingURL=15a63_%40once-ui-system_core_dist_components_Mask_module_scss_module_css_bad6b30c._.single.css.map*/

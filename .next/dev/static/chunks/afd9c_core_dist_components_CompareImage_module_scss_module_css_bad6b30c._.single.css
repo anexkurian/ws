@@ -1,0 +1,17 @@
+/* [project]/Documents/WS/widelystudioswebsite/node_modules/@once-ui-system/core/dist/components/CompareImage.module.scss.module.css [app-client] (css) */
+.CompareImage-module-scss-module__dYK6xq__hitArea {
+  cursor: col-resize;
+  transform: translateX(-50%);
+}
+
+.CompareImage-module-scss-module__dYK6xq__dragIcon {
+  cursor: col-resize;
+  z-index: 2;
+  pointer-events: auto;
+  transition: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=afd9c_core_dist_components_CompareImage_module_scss_module_css_bad6b30c._.single.css.map*/

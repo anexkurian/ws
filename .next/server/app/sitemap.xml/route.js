@@ -1,0 +1,10 @@
+var R=require("../../chunks/[turbopack]_runtime.js")("server/app/sitemap.xml/route.js")
+R.c("server/chunks/[root-of-the-server]__574a2268._.js")
+R.c("server/chunks/15a63_next_ed82361a._.js")
+R.c("server/chunks/Documents_WS_widelystudioswebsite_76878df9._.js")
+R.c("server/chunks/[root-of-the-server]__d086b181._.js")
+R.c("server/chunks/[root-of-the-server]__69963828._.js")
+R.c("server/chunks/[root-of-the-server]__c1deaf9e._.css")
+R.c("server/chunks/3483c__next-internal_server_app_sitemap_xml_route_actions_c0724a58.js")
+R.m(929063)
+module.exports=R.m(929063).exports

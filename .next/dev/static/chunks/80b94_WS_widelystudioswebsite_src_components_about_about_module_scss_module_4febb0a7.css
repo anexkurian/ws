@@ -1,0 +1,20 @@
+/* [project]/Documents/WS/widelystudioswebsite/src/components/about/about.module.scss.module.css [app-client] (css) */
+.about-module-scss-module__0cyA9G__hover {
+  transition: var(--transition-micro-medium);
+}
+
+.about-module-scss-module__0cyA9G__hover:hover {
+  transform: translateX(var(--static-space-4));
+}
+
+@media (max-width: 768px) {
+  .about-module-scss-module__0cyA9G__textAlign {
+    text-align: center;
+  }
+
+  .about-module-scss-module__0cyA9G__blockAlign {
+    align-self: center;
+  }
+}
+
+/*# sourceMappingURL=80b94_WS_widelystudioswebsite_src_components_about_about_module_scss_module_4febb0a7.css.map*/

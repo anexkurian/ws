@@ -1,0 +1,63 @@
+1:"$Sreact.fragment"
+3:I[532471,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"Providers"]
+4:I[473090,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"Column"]
+5:I[94702,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"RevealFx"]
+6:I[22481,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"Background"]
+b:I[908920,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"ClientFlex"]
+c:I[745791,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"Header"]
+d:I[513399,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"RouteGuard"]
+e:I[614250,["/_next/static/chunks/919292bbcd917b8d.js","/_next/static/chunks/6afda0f13645613a.js"],"default"]
+f:I[906419,["/_next/static/chunks/919292bbcd917b8d.js","/_next/static/chunks/6afda0f13645613a.js"],"default"]
+10:I[919296,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"Row"]
+11:I[588719,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"SmartLink"]
+12:I[648173,["/_next/static/chunks/1b3b454d785689fc.js","/_next/static/chunks/be229b8c84328ee8.js","/_next/static/chunks/5e16194b5f435555.js","/_next/static/chunks/20a31a3d05d0510e.js","/_next/static/chunks/fd5f7f613be50123.js","/_next/static/chunks/409a5b9a5798817c.js"],"IconButton"]
+:HL["/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/_next/static/chunks/a1fef5ca8bfc45be.css","style"]
+:HL["/_next/static/chunks/b509f59bd56f080c.css","style"]
+:HL["/_next/static/chunks/65f215d4691577e2.css","style"]
+:HL["/_next/static/chunks/0af1a8a30545323a.css","style"]
+2:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            0:{"buildId":"PNRYrP-4ylpnBi3TkVvhW","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/a1fef5ca8bfc45be.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/b509f59bd56f080c.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/65f215d4691577e2.css","precedence":"next"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/0af1a8a30545323a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1b3b454d785689fc.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/be229b8c84328ee8.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/5e16194b5f435555.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/20a31a3d05d0510e.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/fd5f7f613be50123.js","async":true}]],["$","html",null,{"className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","$L3",null,{"children":["$","$L4",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L6",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],"$L7","$L8","$L9","$La"]}]}]]}]]}],"loading":null,"isPartial":false}
+7:["$","$Lb",null,{"s":{"hide":true},"fillWidth":true,"minHeight":"16"}]
+8:["$","$Lc",null,{}]
+9:["$","div",null,{"className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{},"children":["$","div",null,{"className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"minHeight":"var(--static-space-0)"},"children":["$","$Ld",null,{"children":["$","$Le",null,{"parallelRouterKey":"children","template":["$","$Lf",null,{}],"notFound":[["$","$L4",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":"The page you are looking for does not exist."}]]}],[]]}]}]}]}]
+a:["$","$L10",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L10",null,{"className":"Footer-module-scss-module__g3-W0q__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{},"children":"Selene Yu"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":["/ Build your portfolio with"," ",["$","$L11",null,{"href":"https://once-ui.com/products/magic-portfolio","children":"Once UI"}]]}]]}],["$","$L10",null,{"gap":"16","children":[["$","$L12","GitHub",{"href":"https://github.com/once-ui-system","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L12","LinkedIn",{"href":"https://www.linkedin.com/company/once-ui/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L12","Instagram",{"href":"https://www.instagram.com/once_ui/","icon":"instagram","tooltip":"Instagram","size":"s","variant":"ghost"}],["$","$L12","Threads",{"href":"https://www.threads.com/@once_ui","icon":"threads","tooltip":"Threads","size":"s","variant":"ghost"}],["$","$L12","Email",{"href":"mailto:example@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L10",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]

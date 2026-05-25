@@ -1,0 +1,3 @@
+module.exports=[900728,a=>{"use strict";var b=a.i(67978);a.i(53932);var c=a.i(475720),d=a.i(536617);a.i(883901);var e=a.i(542800);function f(){return(0,b.jsx)(d.MasonryGrid,{columns:2,s:{columns:1},children:e.gallery.images.map((a,d)=>(0,b.jsx)(c.Media,{enlarge:!0,priority:d<10,sizes:"(max-width: 560px) 100vw, 50vw",radius:"m",aspectRatio:"horizontal"===a.orientation?"16 / 9":"3 / 4",src:a.src,alt:a.alt},d))})}a.s(["default",()=>f])}];
+
+//# sourceMappingURL=80b94_WS_widelystudioswebsite_src_components_gallery_GalleryView_tsx_f7571b81._.js.map

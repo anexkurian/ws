@@ -1,0 +1,3 @@
+module.exports=[153328,a=>{"use strict";var b=a.i(233742);a.i(587292);var c=a.i(805274),d=a.i(186549),e=a.i(745807);function f(){return(0,b.jsxs)(c.Column,{as:"section",fill:!0,center:!0,paddingBottom:"160",children:[(0,b.jsx)(e.Text,{marginBottom:"s",variant:"display-strong-xl",children:"404"}),(0,b.jsx)(d.Heading,{marginBottom:"l",variant:"display-default-xs",children:"Page Not Found"}),(0,b.jsx)(e.Text,{onBackground:"neutral-weak",children:"The page you are looking for does not exist."})]})}a.s(["default",()=>f])}];
+
+//# sourceMappingURL=Documents_WS_widelystudioswebsite_src_app_not-found_tsx_7541b07d._.js.map

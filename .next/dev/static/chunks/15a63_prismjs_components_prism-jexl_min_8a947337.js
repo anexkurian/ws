@@ -1,0 +1,21 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/Documents/WS/widelystudioswebsite/node_modules/prismjs/components/prism-jexl.min.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+Prism.languages.jexl = {
+    string: /(["'])(?:\\[\s\S]|(?!\1)[^\\])*\1/,
+    transform: {
+        pattern: /(\|\s*)[a-zA-Zа-яА-Я_\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF$][\wа-яА-Я\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF$]*/,
+        alias: "function",
+        lookbehind: !0
+    },
+    function: /[a-zA-Zа-яА-Я_\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF$][\wа-яА-Я\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF$]*\s*(?=\()/,
+    number: /\b\d+(?:\.\d+)?\b|\B\.\d+\b/,
+    operator: /[<>!]=?|-|\+|&&|==|\|\|?|\/\/?|[?:*^%]/,
+    boolean: /\b(?:false|true)\b/,
+    keyword: /\bin\b/,
+    punctuation: /[{}[\](),.]/
+};
+}),
+]);
+
+//# sourceMappingURL=15a63_prismjs_components_prism-jexl_min_8a947337.js.map

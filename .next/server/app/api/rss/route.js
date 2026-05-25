@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/rss/route.js")
+R.c("server/chunks/[root-of-the-server]__d48f48b0._.js")
+R.c("server/chunks/15a63_next_53c4b59e._.js")
+R.c("server/chunks/Documents_WS_widelystudioswebsite_76878df9._.js")
+R.c("server/chunks/[root-of-the-server]__d086b181._.js")
+R.c("server/chunks/[root-of-the-server]__69963828._.js")
+R.c("server/chunks/[root-of-the-server]__c1deaf9e._.css")
+R.c("server/chunks/d8189_widelystudioswebsite__next-internal_server_app_api_rss_route_actions_53af9393.js")
+R.m(757624)
+module.exports=R.m(757624).exports

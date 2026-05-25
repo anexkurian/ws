@@ -1,0 +1,24 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/Documents/WS/widelystudioswebsite/node_modules/prismjs/components/prism-openqasm.min.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+Prism.languages.openqasm = {
+    comment: /\/\*[\s\S]*?\*\/|\/\/.*/,
+    string: {
+        pattern: /"[^"\r\n\t]*"|'[^'\r\n\t]*'/,
+        greedy: !0
+    },
+    keyword: /\b(?:CX|OPENQASM|U|barrier|boxas|boxto|break|const|continue|ctrl|def|defcal|defcalgrammar|delay|else|end|for|gate|gphase|if|in|include|inv|kernel|lengthof|let|measure|pow|reset|return|rotary|stretchinf|while)\b|#pragma\b/,
+    "class-name": /\b(?:angle|bit|bool|creg|fixed|float|int|length|qreg|qubit|stretch|uint)\b/,
+    function: /\b(?:cos|exp|ln|popcount|rotl|rotr|sin|sqrt|tan)\b(?=\s*\()/,
+    constant: /\b(?:euler|pi|tau)\b|π|𝜏|ℇ/,
+    number: {
+        pattern: /(^|[^.\w$])(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?(?:dt|ns|us|µs|ms|s)?/i,
+        lookbehind: !0
+    },
+    operator: /->|>>=?|<<=?|&&|\|\||\+\+|--|[!=<>&|~^+\-*/%]=?|@/,
+    punctuation: /[(){}\[\];,:.]/
+}, Prism.languages.qasm = Prism.languages.openqasm;
+}),
+]);
+
+//# sourceMappingURL=15a63_prismjs_components_prism-openqasm_min_460b76a6.js.map
