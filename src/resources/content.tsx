@@ -63,15 +63,6 @@ const home: Home = {
   headline: <>#wearewidely</>,
   featured: {
     display: true,
-    title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
-    ),
     title: <>Featured work</>,
     href: "/work",
   },
